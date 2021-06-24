@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<style>
+    .Title h1 {
+        font-family: 'Product Sans Thin';
+        font-size: 80px;
+    }
+    .Title h2 {
+        font-family: 'Product Sans Thin';
+        position: relative;
+        bottom: 60px;
+    }
+    .DiscordDiv {
+        font-family: 'Product Sans Thin';
+    }
+</style>
+<head>
+    <script src =jquery-3.6.0.js></script>
+    <script src="particles.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <title>test</title>
+</head>
+<body>
+<div id="particle-div"></div>
+<button id="particle-button">Start</button>
+
+<script>
+    $("#particle-button").click(function(){
+        particlesJS.load('particle-div','particle-cfg.json');
+    });
+</script>
+
+<div class ="Buttons">
+    <a href="https://github.com/PossiblyShea" >
+        <span class="Github"></span></a>
+</div>
+<div class="Background"></div>
+<div class="Title">
+    <h1>Shea</h1>
+    <h2>Cool spaghetti person</h2>
+</div>
+</body>
+</html>
